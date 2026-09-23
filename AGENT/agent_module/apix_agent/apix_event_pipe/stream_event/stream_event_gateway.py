@@ -213,7 +213,7 @@ class StreamEventHandler(EventHandler):
 
             timestamp = int(time.time() * 1000)
             initial_state: MainAgentState = {
-                "agent_name": "APIX",
+                "agent_name": "Weftora",
                 "agent_role": agent_role,
                 "client_id": client_id,
                 "session_id": session_id,
@@ -245,7 +245,7 @@ class StreamEventHandler(EventHandler):
                 "error_detail": ""
             }
 
-            agent = await ai_agent.submit_agent_task(agent_role, "APIX", config)
+            agent = await ai_agent.submit_agent_task(agent_role, "Weftora", config)
             astream = agent.astream(initial_state, {"recursion_limit": 1024}, stream_mode="custom")
 
             async for achunk in astream:

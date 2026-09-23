@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Start all APIX backend services locally (non-Docker mode).
+# Start all Weftora backend services locally (non-Docker mode).
 # Run this after setup.sh has installed dependencies and started Redis/MySQL.
 
 set -e
@@ -13,7 +13,7 @@ declare -a services=(
     "FILE:FILE/file_service:5094"
 )
 
-echo "Starting APIX backend services locally..."
+echo "Starting Weftora backend services locally..."
 
 for svc in "${services[@]}"; do
     IFS=':' read -r name path port <<< "$svc"

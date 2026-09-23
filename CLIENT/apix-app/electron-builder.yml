@@ -1,8 +1,8 @@
-appId: com.apix-app.app
-productName: APIX
+appId: com.weftora.app
+productName: Weftora
 directories:
   buildResources: resources
-icon: resources/APIX.png
+icon: resources/Weftora.png
 files:
   - '!**/.vscode/*'
   - '!src/*'
@@ -13,7 +13,7 @@ asar: true
 asarUnpack:
   - resources/**
 win:
-  executableName: apix-app
+  executableName: weftora
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

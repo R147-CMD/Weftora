@@ -35,7 +35,7 @@
         class="menu-item"
         @click="newFile"
       >
-        <span>新建APIX文件</span>
+        <span>新建 Weftora 文件</span>
       </button>
 
       <button 

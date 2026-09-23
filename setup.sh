@@ -2,7 +2,7 @@
 
 set -e  # exit on error
 
-echo "==== APIX One-click Setup (Linux/macOS) ===="
+echo "==== Weftora One-click Setup (Linux/macOS) ===="
 
 ROOT=$(pwd)
 

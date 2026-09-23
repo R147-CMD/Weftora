@@ -1,4 +1,4 @@
-# Start all APIX backend services in Docker Compose.
+# Start all Weftora backend services in Docker Compose.
 # The Electron frontend should still run on the host.
 
 $ROOT = Get-Location
@@ -25,7 +25,7 @@ if (-not $hostBaseDir) {
 $env:HOST_BASE_DIR = $hostBaseDir
 
 Write-Host "HOST_BASE_DIR set to: $hostBaseDir"
-Write-Host "Starting APIX services with Docker Compose..."
+Write-Host "Starting Weftora services with Docker Compose..."
 
 docker compose -f "$ROOT\docker-compose.yml" up -d --build
 

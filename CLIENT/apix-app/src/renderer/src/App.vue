@@ -14,7 +14,7 @@
               </button>
             </div>
             <div class="drag-area">
-              <button class="title no-drag" @click="showAppInfo">APIX</button>
+              <button class="title no-drag" @click="showAppInfo">Weftora</button>
             </div>
             <div class="left-icon no-drag">
               <img
@@ -47,7 +47,7 @@ import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import { ConfirmDialog } from './views/component/comp/confirmDialog.js'
 import { useAppCacheData } from './store/app.js';
 import { apix_client_version } from './store/globalData.js';
-import appIcon from './assets/background/APIX.png'
+import appIcon from './assets/background/Weftora.png'
 
 const lacale = zhCn
 const config = ({
@@ -283,4 +283,3 @@ onBeforeUnmount(() => {
   to   { transform: rotate(360deg); }
 }
 </style>
-

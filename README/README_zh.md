@@ -1,13 +1,10 @@
-# 克隆项目到本地
+# 获取项目源码
 
 ```bash
-mkdir APIX
-cd APIX
-git clone https://github.com/JJJJSTIYYYY/Apix.git
-cd Apix
+cd /path/to/weftora
 ```
 
-> 除去含有cd命令的bash命令块，以下所有 Bash 命令均在项目*根目录*（`./Apix`）下执行
+> 通过已获授权的方式获取源码后，以下所有 Bash 命令均在项目根目录下执行。
 
 ---
 

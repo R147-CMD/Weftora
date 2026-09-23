@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./README/source/APIX-bar.jpeg" width="300" height="200" style="border-radius: 12px; display: block; margin: 0 auto;">
+<img src="./README/source/Weftora-icon.png" width="200" height="200" style="border-radius: 12px; display: block; margin: 0 auto;">
 
-# APIX — Open-Source AI Agent Operating System
+# Weftora — Open-Source AI Agent Operating System
 
 English | [中文文档](./README.md)
 
@@ -10,8 +10,6 @@ English | [中文文档](./README.md)
 ![Electron](https://img.shields.io/badge/Electron-37-47848F?style=flat\&logo=electron)
 ![Vue](https://img.shields.io/badge/Vue-3.5-4FC08D?style=flat\&logo=vue.js)
 ![License](https://img.shields.io/badge/License-GPL%203.0-blue?style=flat)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?style=flat\&logo=discord\&logoColor=white)](https://discord.gg/bsTqEzJmJ)
-![QQ Group](https://custom-icon-badges.demolab.com/badge/QQ%20Group-639459172-00BFFF?style=flat\&logo=tencent-qq)
 
 **More than just a chatbot. Build, collaborate, and execute with AI Agents that actually get work done.**
 
@@ -19,9 +17,9 @@ English | [中文文档](./README.md)
 
 ---
 
-## 🎯 What is APIX?
+## 🎯 What is Weftora?
 
-APIX is a **full-stack AI Agent collaboration platform** designed to provide a complete runtime environment for intelligent agents.
+Weftora is a **full-stack AI Agent collaboration platform** designed to provide a complete runtime environment for intelligent agents.
 
 It supports:
 
@@ -32,7 +30,7 @@ It supports:
 * MCP integration
 * Persistent memory management
 
-Whether you're writing code, generating presentations, preparing reports, or building automated workflows, APIX helps transform AI from a conversation tool into a real productivity system.
+Whether you're writing code, generating presentations, preparing reports, or building automated workflows, Weftora helps transform AI from a conversation tool into a real productivity system.
 
 ---
 
@@ -58,22 +56,9 @@ Whether you're writing code, generating presentations, preparing reports, or bui
 
 ---
 
-## 🖥️ Interface Preview
-
-<table border="0" cellpadding="6" cellspacing="6" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" width="50%"><b>Chat Interface</b><br><img src="./README/source/main-page.png" style="border-radius: 6px;"></td>
-    <td align="center" width="50%"><b>Editor Workspace</b><br><img src="./README/source/editor-page.png" style="border-radius: 6px;"></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Resource Management</b><br><img src="./README/source/src-page.png" style="border-radius: 6px;"></td>
-    <td align="center"><b>Settings Panel</b><br><img src="./README/source/setting-page.png" style="border-radius: 6px;"></td>
-  </tr>
-</table>
-
----
-
 ## 🚀 Quick Start
+
+> Compatibility note: Weftora is a separate application with a new local data directory. If you have used APIX, back up its application data first; this version does not migrate it automatically.
 
 ### One-Click Installation
 
@@ -180,19 +165,6 @@ If you'd like to customize the deployment process, please refer to our documenta
 - Fix incorrect context construction after message node editing.
 - Add event loop and event listener mechanism to invoke event handlers non-blockingly by priority.
 - Implement automatic tasks and scheduled tasks based on the event loop.
-- !!! The next-generation APIX is currently in the works (underlying refactoring).
-
----
-
-## About APIX 3.0
-
-- Refactoring the underlying Agent Loop
-- Cleaner project directory structure
-- More flexible system extension points
-- Introducing an in-memory database with configurable cache (can be disabled)
-- Easier installation and deployment
-- More efficient KV-cache hit rate
-- Smaller project footprint / fewer dependencies
 
 ---
 
@@ -200,16 +172,4 @@ If you'd like to customize the deployment process, please refer to our documenta
 
 This project is licensed under the **GNU GPL v3.0 License**.
 
----
-
-## 🫵 Join Our Community
-
-[QQ Group](https://qun.qq.com/universal-share/share?ac=1&authKey=ommoQrT2zhzHU%2FUxv8pfGCJbNifW%2BJyUAFBkNdzkHTPUxdxCnlgxm5aNgGslTmdE&busi_data=eyJncm91cENvZGUiOiI2Mzk0NTkxNzIiLCJ0b2tlbiI6Im9ZZkdNUWZnSVV1Y2REeUhKNnlTbWEwc05Bb093djRzUXdXNE55dklBVnlBQk9XbGNpS0ZXSDlzK3orSW1sQ3YiLCJ1aW4iOiIzMTI5NDI0NTcyIn0%3D&data=OGTchcr80RAQg8Z8_GZTdvBb7kZDeM9B3hHcNqLaAX2ZK_KYq260C4CubblEBT1bK5fP6zgtnCk2D8fIoph1ZQ&svctype=4&tempid=h5_group_info)
-|
-[Discord](https://discord.gg/bsTqEzJmJ)
-
----
-
-🌟 If you find APIX useful, consider giving the project a Star!
-
-> All modules have been tested using ApiFox.
+Weftora is a modified version based on [APIX](https://github.com/JJJJSTIYYYY/Apix), modified on 2026-09-21; it is not solely original work.

@@ -1,6 +1,6 @@
-# apix-app
+# Weftora
 
-An Electron application with Vue
+Weftora is an Electron application built with Vue.
 
 ## Recommended IDE Setup
 

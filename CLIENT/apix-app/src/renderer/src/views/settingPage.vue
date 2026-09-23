@@ -19,7 +19,7 @@
               
               <div class="banner-text">
                 <div class="banner-title-wrapper">
-                  <h1 class="banner-title">APIX</h1>
+                  <h1 class="banner-title">Weftora</h1>
                   <span class="version-tag">{{ apix_client_version }}</span>
                 </div>
                 
@@ -31,7 +31,7 @@
                 </p>
                 
                 <div class="banner-meta">
-                  <a class="dev-badge" href="https://github.com/JJJJSTIYYYY/Apix">Github</a>
+                  <span class="dev-badge">Derived from APIX · GPLv3</span>
                   
                   <div class="engine-tags">
                     <span class="engine-tag">Ollama</span>
@@ -771,10 +771,10 @@
           </div>
 
           <div class="setting-card">
-            <div class="setting-title">自动同步设置至APIX后台</div>
+            <div class="setting-title">自动同步设置至 Weftora 后台</div>
             <div class="setting-control">
               <div class="setting-info" :class="{ danger_info: store.config.autoSaveConfig }">
-                开启后，每次对话时将自动保存设置至APIX后台，包括但不限于工具调用权限、记忆设置、联网搜索配置以及选择的模型、密钥。
+                开启后，每次对话时将自动保存设置至 Weftora 后台，包括但不限于工具调用权限、记忆设置、联网搜索配置以及选择的模型、密钥。
               </div>
               <div class="mode-switch">
                 <div class="slider" :class="{ right: store.config.autoSaveConfig }" />
@@ -820,7 +820,7 @@
           class="sync-config-btn"
           @click="syncConfig"
         >
-          同步设置至APIX后台
+          同步设置至 Weftora 后台
         </button>
 
         <el-button
@@ -1092,7 +1092,7 @@ const switchMode = (key: keyof typeof store.config, target: 'on' | 'off') => {
 const syncConfig = async () => {
   try {
     await ConfirmDialog.confirm(
-      `将当前设置同步至APIX服务器缓存？<br>以下信息将会被同步:<br>` +
+      `将当前设置同步至 Weftora 服务器缓存？<br>以下信息将会被同步:<br>` +
       `• 当前选择的模型以及API密钥<br>` +
       `• 当前设置的Agent权限<br>` +
       `• 当前选择的搜索引擎及其API密钥<br>` +

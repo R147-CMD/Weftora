@@ -1,4 +1,4 @@
-# Start all APIX backend services locally (non-Docker mode).
+# Start all Weftora backend services locally (non-Docker mode).
 # Run this after setup.ps1 has installed dependencies and started Redis/MySQL.
 
 $ROOT = Get-Location
@@ -10,7 +10,7 @@ $services = @(
     @{ Name = "FILE";  Path = "FILE/file_service";       Port = 5094 }
 )
 
-Write-Host "Starting APIX backend services locally..."
+Write-Host "Starting Weftora backend services locally..."
 
 foreach ($svc in $services) {
     $jobName = "apix-$($svc.Name.ToLower())"

@@ -1,5 +1,5 @@
 
-Write-Host "==== APIX One-click Setup (Windows) ===="
+Write-Host "==== Weftora One-click Setup (Windows) ===="
 
 $ROOT = Get-Location
 

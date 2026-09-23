@@ -18,8 +18,8 @@ import { registerAiTaskIpc } from '../ipc/ai_task'
 import { registerLocalTaskIpc } from '../ipc/local_task'
 
 const iconPath = app.isPackaged
-  ? join(process.resourcesPath, 'app.asar', 'resources', 'APIX.png')
-  : join(process.cwd(), 'resources', 'APIX.png')
+  ? join(process.resourcesPath, 'app.asar', 'resources', 'Weftora.png')
+  : join(process.cwd(), 'resources', 'Weftora.png')
 
 // ---------- Windows Mica Support ----------
 let MicaBrowserWindow = null

@@ -1,37 +1,37 @@
 // Mock workspace tree data
 export const mockWorkspace = {
-  name: 'APIX',
-  path: '/Users/admin/APIX',
+  name: 'Weftora',
+  path: '/workspace/Weftora',
   type: 'directory',
 
   children: [
     {
       name: 'src',
-      path: '/Users/admin/APIX/src',
+      path: '/workspace/Weftora/src',
       type: 'directory',
 
       children: [
         {
           name: 'components',
-          path: '/Users/admin/APIX/src/components',
+          path: '/workspace/Weftora/src/components',
           type: 'directory',
 
           children: [
             {
               name: 'chat_panel.vue',
-              path: '/Users/admin/APIX/src/components/chat_panel.vue',
+              path: '/workspace/Weftora/src/components/chat_panel.vue',
               type: 'file',
             },
 
             {
               name: 'file_explorer.vue',
-              path: '/Users/admin/APIX/src/components/file_explorer.vue',
+              path: '/workspace/Weftora/src/components/file_explorer.vue',
               type: 'file',
             },
 
             {
               name: 'message_item.vue',
-              path: '/Users/admin/APIX/src/components/message_item.vue',
+              path: '/workspace/Weftora/src/components/message_item.vue',
               type: 'file',
             },
           ],
@@ -39,19 +39,19 @@ export const mockWorkspace = {
 
         {
           name: 'views',
-          path: '/Users/admin/APIX/src/views',
+          path: '/workspace/Weftora/src/views',
           type: 'directory',
 
           children: [
             {
               name: 'home.vue',
-              path: '/Users/admin/APIX/src/views/home.vue',
+              path: '/workspace/Weftora/src/views/home.vue',
               type: 'file',
             },
 
             {
               name: 'settings.vue',
-              path: '/Users/admin/APIX/src/views/settings.vue',
+              path: '/workspace/Weftora/src/views/settings.vue',
               type: 'file',
             },
           ],
@@ -59,19 +59,19 @@ export const mockWorkspace = {
 
         {
           name: 'assets',
-          path: '/Users/admin/APIX/src/assets',
+          path: '/workspace/Weftora/src/assets',
           type: 'directory',
 
           children: [
             {
               name: 'logo.png',
-              path: '/Users/admin/APIX/src/assets/logo.png',
+              path: '/workspace/Weftora/src/assets/logo.png',
               type: 'file',
             },
 
             {
               name: 'background.jpg',
-              path: '/Users/admin/APIX/src/assets/background.jpg',
+              path: '/workspace/Weftora/src/assets/background.jpg',
               type: 'file',
             },
           ],
@@ -79,13 +79,13 @@ export const mockWorkspace = {
 
         {
           name: 'main.js',
-          path: '/Users/admin/APIX/src/main.js',
+          path: '/workspace/Weftora/src/main.js',
           type: 'file',
         },
 
         {
           name: 'App.vue',
-          path: '/Users/admin/APIX/src/App.vue',
+          path: '/workspace/Weftora/src/App.vue',
           type: 'file',
         },
       ],
@@ -93,37 +93,37 @@ export const mockWorkspace = {
 
     {
       name: 'electron',
-      path: '/Users/admin/APIX/electron',
+      path: '/workspace/Weftora/electron',
       type: 'directory',
 
       children: [
         {
           name: 'main.js',
-          path: '/Users/admin/APIX/electron/main.js',
+          path: '/workspace/Weftora/electron/main.js',
           type: 'file',
         },
 
         {
           name: 'preload.js',
-          path: '/Users/admin/APIX/electron/preload.js',
+          path: '/workspace/Weftora/electron/preload.js',
           type: 'file',
         },
 
         {
           name: 'ipc',
-          path: '/Users/admin/APIX/electron/ipc',
+          path: '/workspace/Weftora/electron/ipc',
           type: 'directory',
 
           children: [
             {
               name: 'fs.js',
-              path: '/Users/admin/APIX/electron/ipc/fs.js',
+              path: '/workspace/Weftora/electron/ipc/fs.js',
               type: 'file',
             },
 
             {
               name: 'window.js',
-              path: '/Users/admin/APIX/electron/ipc/window.js',
+              path: '/workspace/Weftora/electron/ipc/window.js',
               type: 'file',
             },
           ],
@@ -133,13 +133,13 @@ export const mockWorkspace = {
 
     {
       name: 'node_modules',
-      path: '/Users/admin/APIX/node_modules',
+      path: '/workspace/Weftora/node_modules',
       type: 'directory',
 
       children: [
         {
           name: '.bin',
-          path: '/Users/admin/APIX/node_modules/.bin',
+          path: '/workspace/Weftora/node_modules/.bin',
           type: 'directory',
 
           children: [],
@@ -147,7 +147,7 @@ export const mockWorkspace = {
 
         {
           name: 'vue',
-          path: '/Users/admin/APIX/node_modules/vue',
+          path: '/workspace/Weftora/node_modules/vue',
           type: 'directory',
 
           children: [],
@@ -155,7 +155,7 @@ export const mockWorkspace = {
 
         {
           name: 'electron',
-          path: '/Users/admin/APIX/node_modules/electron',
+          path: '/workspace/Weftora/node_modules/electron',
           type: 'directory',
 
           children: [],
@@ -165,25 +165,25 @@ export const mockWorkspace = {
 
     {
       name: 'package.json',
-      path: '/Users/admin/APIX/package.json',
+      path: '/workspace/Weftora/package.json',
       type: 'file',
     },
 
     {
       name: 'vite.config.js',
-      path: '/Users/admin/APIX/vite.config.js',
+      path: '/workspace/Weftora/vite.config.js',
       type: 'file',
     },
 
     {
       name: '.gitignore',
-      path: '/Users/admin/APIX/.gitignore',
+      path: '/workspace/Weftora/.gitignore',
       type: 'file',
     },
 
     {
       name: 'README.md',
-      path: '/Users/admin/APIX/README.md',
+      path: '/workspace/Weftora/README.md',
       type: 'file',
     },
   ],

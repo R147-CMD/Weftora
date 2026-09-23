@@ -713,7 +713,7 @@ Search the web for pages related to given keyword(s) and return a list of result
 - The search results may contain images
 
 ## Examples:
-- `["apix", "Agent"]` → searches for `"apix Agent"` because the intent is to find an Agent named Apix.
+- `["weftora", "Agent"]` → searches for `"weftora Agent"` because the intent is to find an agent named Weftora.
 - `["python", "asyncio"]` → searches for `"python asyncio"` because the keywords describe a related topic.
 - `["OpenAI", "GPT-5"]` → searches for `"OpenAI GPT-5"` because the keywords belong to the same subject.
 

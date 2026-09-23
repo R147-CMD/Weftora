@@ -82,7 +82,7 @@
   <div
     class="version-div"
   >
-    APIX {{ apix_client_version }}
+    Weftora {{ apix_client_version }}
   </div>
 </template>
 

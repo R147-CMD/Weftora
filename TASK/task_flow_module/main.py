@@ -53,7 +53,7 @@ async def lifespan(app: FastAPI):
     # await ws_list.remove_all()
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="APIX SERVICE", version="1.0.0", lifespan=lifespan)
+    app = FastAPI(title="Weftora Task Service", version="1.0.0", lifespan=lifespan)
     # auto_load(app)
 
     @app.get("/health")

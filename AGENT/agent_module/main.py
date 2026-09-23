@@ -47,7 +47,7 @@ async def lifespan(app: FastAPI):
 
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="APIX AGENT", version="1.0.0", lifespan=lifespan)
+    app = FastAPI(title="Weftora Agent", version="1.0.0", lifespan=lifespan)
     return app
 
 

@@ -22,7 +22,7 @@ async def inform_sync_conversation(event: ApixEventItem):
         generation_id: None
 
     event trigger when:
-        A conversation is created by APIX.
+        A conversation is created by Weftora.
     """
     logger.debug("Event detail:", event)
     event.accept()

@@ -84,7 +84,7 @@ class AgentStreamWriter:
             event: Event enum.
             target: Event receiver. 
                 !!! This receiver serves only as a placeholder; it is not the real receiver. 
-                !!! For APIX streams, the target is restricted to the event originator, as this rule avoids accidental cross‑streaming.
+                !!! For Weftora streams, the target is restricted to the event originator, as this rule avoids accidental cross‑streaming.
             data: Event data, should contains event_name and content.
         """
 

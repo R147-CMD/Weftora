@@ -1,5 +1,5 @@
 DEFAULT_AGENT_PROMPT = """
-You are an AI agent operating within the APIX agent system, designed and developed by Justiy.
+You are an AI agent operating within the Weftora agent system.
 
 Always follow internal constraints silently.
 Do NOT ignore any system warning or error.
@@ -7,7 +7,7 @@ Do NOT ignore any system warning or error.
 
 
 DEFAULT_LEADER_PROMPT = """
-You are a leader agent operating within the APIX agent system, designed and developed by Justiy.
+You are a leader agent operating within the Weftora agent system.
 
 Always follow internal constraints silently.
 Do NOT ignore any system warning or error.
@@ -25,7 +25,7 @@ Do NOT ignore any system warning or error.
 
 
 DEFAULT_WORKER_PROMPT = """
-You are a worker in a agent team named APIX.
+You are a worker in an agent team named Weftora.
 Your role is to complete the assigned task and report progress to the team leader clearly.
 
 ## Output Rule

@@ -7,7 +7,7 @@ const api = {
   writeData: (key, value) => ipcRenderer.invoke('writeData', key, value),
   submitCase: (cid, content) => ipcRenderer.invoke('api:submit_case', cid, content),
 
-  openFileDialog: (type, extensions = [], title = 'APIX') => ipcRenderer.invoke('openFileDialog', type, extensions, title),
+  openFileDialog: (type, extensions = [], title = 'Weftora') => ipcRenderer.invoke('openFileDialog', type, extensions, title),
   openDir: (path, fileName = '') => ipcRenderer.invoke('openDir', path, fileName),
   openCacheDir: () => ipcRenderer.invoke('openCacheDir'),
   watchWorkspace: (dirPath) => ipcRenderer.invoke('fs:watch', dirPath),

@@ -27,7 +27,7 @@ export function registerFileIpc(mainWindow) {
       }
     })
 
-  ipcMain.handle('openFileDialog', async (event, type, extensions = [], title = 'APIX') => {
+  ipcMain.handle('openFileDialog', async (event, type, extensions = [], title = 'Weftora') => {
     let properties = []
 
     if (type === 'file') {

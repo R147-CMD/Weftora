@@ -1,7 +1,7 @@
 [project]
 name = "apix_service"
 version = "0.1.0"
-description = "Service for APIX platform"
+description = "Service for Weftora platform"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

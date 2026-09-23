@@ -1,9 +1,9 @@
 {
-  "name": "apix-app",
+  "name": "weftora",
   "version": "1.0.0",
-  "description": "APIX Client",
+  "description": "Weftora Client",
   "main": "./out/main/index.js",
-  "author": "https://github.com/JJJJSTIYYYY",
+  "author": "Weftora contributors",
   "homepage": "",
   "scripts": {
     "format": "prettier --write .",
@@ -16,7 +16,7 @@
     "build:win": "npm run build && electron-builder --win",
     "build:mac": "npm run build && electron-builder --mac",
     "build:linux": "npm run build && electron-builder --linux",
-    "electron:generate-icons": "electron-icon-builder --input=./resources/APIX.png --output=build --flatten"
+    "electron:generate-icons": "electron-icon-builder --input=./resources/Weftora.png --output=build --flatten"
   },
   "dependencies": {
     "@codemirror/lang-markdown": "^6.5.0",

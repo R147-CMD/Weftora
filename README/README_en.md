@@ -1,13 +1,10 @@
-# Clone the Project Locally
+# Obtain the Project Source
 
 ```bash
-mkdir APIX
-cd APIX
-git clone https://github.com/JJJJSTIYYYY/Apix.git
-cd Apix
+cd /path/to/weftora
 ```
 
-> Except for bash command blocks containing `cd`, all the following Bash commands should be executed in the project *root directory* (`./Apix`)
+> Obtain the source through an approved method, then run all following Bash commands from the project root directory.
 
 ---
 

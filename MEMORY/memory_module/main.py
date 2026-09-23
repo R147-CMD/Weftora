@@ -31,7 +31,7 @@ async def lifespan(app: FastAPI):
     await _close_server_()
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="APIX AGENT MEMORY CALL MODULE", version="1.0.0", lifespan=lifespan)
+    app = FastAPI(title="Weftora Memory Service", version="1.0.0", lifespan=lifespan)
     return app
 
 

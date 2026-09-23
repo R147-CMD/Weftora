@@ -2506,7 +2506,7 @@ watch(
     if (newkey === oldkey) return
 
     if (!newkey || newkey === '') {
-      agentName.value = 'APIX'
+      agentName.value = 'Weftora'
     }
     else {
       agentName.value = newkey
