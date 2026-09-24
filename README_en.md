@@ -9,7 +9,6 @@ English | [中文文档](./README.md)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat\&logo=python)
 ![Electron](https://img.shields.io/badge/Electron-37-47848F?style=flat\&logo=electron)
 ![Vue](https://img.shields.io/badge/Vue-3.5-4FC08D?style=flat\&logo=vue.js)
-![License](https://img.shields.io/badge/License-GPL%203.0-blue?style=flat)
 
 **More than just a chatbot. Build, collaborate, and execute with AI Agents that actually get work done.**
 
@@ -57,8 +56,6 @@ Whether you're writing code, generating presentations, preparing reports, or bui
 ---
 
 ## 🚀 Quick Start
-
-> Compatibility note: Weftora is a separate application with a new local data directory. If you have used APIX, back up its application data first; this version does not migrate it automatically.
 
 ### One-Click Installation
 
@@ -158,18 +155,3 @@ If you'd like to customize the deployment process, please refer to our documenta
 - [ ] Add missing unit tests
 - [ ] Graph-Based Workflow Editor
 - [ ] Workspace Time Travel
-
-## 🗺️ Version Log (Version 2.1.1)
-
-- The code related to linear task flow editing is currently broken and will be fixed in a future release. (low)
-- Fix incorrect context construction after message node editing.
-- Add event loop and event listener mechanism to invoke event handlers non-blockingly by priority.
-- Implement automatic tasks and scheduled tasks based on the event loop.
-
----
-
-## 📄 License
-
-This project is licensed under the **GNU GPL v3.0 License**.
-
-Weftora is a modified version based on [APIX](https://github.com/JJJJSTIYYYY/Apix), modified on 2026-09-21; it is not solely original work.

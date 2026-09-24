@@ -9,7 +9,6 @@
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python)
 ![Electron](https://img.shields.io/badge/Electron-37-47848F?style=flat&logo=electron)
 ![Vue](https://img.shields.io/badge/Vue-3.5-4FC08D?style=flat&logo=vue.js)
-![License](https://img.shields.io/badge/License-GPL%203.0-blue?style=flat)
 
 **不只是聊天。构建、协作、执行——让 AI Agent 真正为你工作。**
 
@@ -48,8 +47,6 @@ Weftora 是一个**全栈的 AI Agent 协作平台**。它是一套完整的 Age
 ---
 
 ## 🚀 快速开始
-
-> 兼容提示：Weftora 作为独立应用使用新的本地数据目录。如果您已使用 APIX，请先备份原应用数据；当前版本不会自动迁移旧数据。
 
 ### 一键安装攻略
 
@@ -139,17 +136,3 @@ chmod +x start-local.sh
 - [ ] 单元测试补齐
 - [ ] 图任务流编辑
 - [ ] 工作区时间旅行
-
-## 🗺️ 版本日志 (Version 2.2.2)
-
-- 线形任务流编辑相关代码已损坏，将在后续版本中修复 (低优先级)
-- 新增定时任务系统（支持设置时间与周期或设置Linux Cron表达式）
-- 修复部分情况下页面无法收到后台推送的事件的问题
-
----
-
-## 📄 许可证
-
-本项目基于 **GNU GPL v3.0** 协议开源。
-
-Weftora 是基于 [APIX](https://github.com/JJJJSTIYYYY/Apix) 修改的版本；修改日期为 2026-09-21，并非完全原创项目。
